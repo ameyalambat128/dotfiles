@@ -1,0 +1,21 @@
+{
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(cat:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(bun run dev:*)",
+      "Bash(ls:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "default"
+  },
+  "hooks": {},
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  }
+}

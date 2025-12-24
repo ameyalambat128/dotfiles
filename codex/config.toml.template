@@ -1,0 +1,6 @@
+model = "gpt-5.2-codex"
+model_reasoning_effort = "high"
+
+[mcp_servers.context7]
+args = ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_CONTEXT7_API_KEY_HERE"]
+command = "npx"
